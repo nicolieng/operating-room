@@ -10,7 +10,7 @@ To track the adoption and effectiveness of the iSurgery system, I developed seve
 Key insights from the analysis revealed that blocks with short durations and those in specific locations (Center PEDS, MSC, and MRH) were associated with the highest rates of denials. As a next step, we recommend using surveys or developing new data tracking methods to capture additional data on these problematic areas. By leveraging the existing data warehouse, we can conduct a follow-up cohort analysis to uncover the root causes of the denials and develop targeted solutions to improve the approval rates in these areas.
 
 
-## What to expect in this repository? 
+## What to expect in this repo? 
 1. A database file which contains the raw data to be used for this analysis. 
 
 2. A python notebook which documents the code used for coming up with the insights, along with an outline of the process, narration of visualizations, and a discussion of limitations and next steps.  
