@@ -1,12 +1,13 @@
 # operating-room
 
 ## Problem Statement
-Make a one-page presentation to help us (the company) understand the usage and value of the new launched software product - iSurgery. Provide insights and recommendations on how to maximize the product's value.  
+iSurgery is a newly launched system designed to optimize operating room scheduling by giving schedulers the flexibility to schedule or unschedule blocks up to seven months in advance. This allows for better management of operating room capacity and improves surgeon availability. The goal is to understand the full potential and value of iSurgery, including how it can streamline scheduling, reduce conflicts, and enhance operational efficiency. Insights and recommendations are needed on how to maximize its impact on overall performance and resource utilization.
 
-Context: iSurgery is a system designed to let Surgeons free up the capcaity of any operating rooms by providing schedulers the flexibility to schedule or unschedule blocks up to 7 months prior. 
+## Project Highlight
+To track the adoption and effectiveness of the iSurgery system, I developed several key metrics, including the number of approved requests, the number of operating room releases, and the number of successful transfers. I also examined the percentage of total released hours and the percentage of total released rooms on a monthly basis. A trend graph was created to allow the team to monitor these metrics over time and assess system performance.
 
-## What did we accomplish with this project? 
-To start, I created a number of metrics to measure adoption, such as the number of approved requests, the number of operating room releases, and the number of successful transfers. A trend graph was built for the team to monitor how each metrics are performing over time. One of the key findings presented was that the location of the operation room and the operation block duration plays a key role in determining whether a request will be approved or denied. With this in mind, we can concentrate on thoroughly investigating specific locations to identify the root causes of the denials and develop targeted solutions.
+## Outcome 
+Key insights from the analysis revealed that blocks with short durations and those in specific locations (Center PEDS, MSC, and MRH) were associated with the highest rates of denials. As a next step, we recommend using surveys or developing new data tracking methods to capture additional data on these problematic areas. By leveraging the existing data warehouse, we can conduct a follow-up cohort analysis to uncover the root causes of the denials and develop targeted solutions to improve the approval rates in these areas.
 
 ## What to expect in this repository? 
 1. A database file which contains the raw data to be used for this analysis. 
@@ -16,4 +17,4 @@ To start, I created a number of metrics to measure adoption, such as the number 
 3. A one-page pdf with actionable insights to communicate key findings to out stakeholders and guide them on their decision making. 
 
 ## What is the source of the data?
-The dataset is shared by a company in the health tech industry.
+The dataset is kindly shared by a health-tech company.
